@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA68003A1585462F0044AA9A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6800391585462F0044AA9A /* Cocoa.framework */; };
+		FA6800441585462F0044AA9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA6800421585462F0044AA9A /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA6800361585462F0044AA9A /* BasicMP3.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMP3.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6800391585462F0044AA9A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FA68003C1585462F0044AA9A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FA68003D1585462F0044AA9A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA68003E1585462F0044AA9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA6800411585462F0044AA9A /* BasicMP3-Info.plist */ = {isa = PBXFileReference; path = "BasicMP3-Info.plist"; sourceTree = "<group>"; };
+		FA6800431585462F0044AA9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA6800451585462F0044AA9A /* BasicMP3-Prefix.pch */ = {isa = PBXFileReference; path = "BasicMP3-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6800331585462F0044AA9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA68003A1585462F0044AA9A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA68002B1585462F0044AA9A = {
+			isa = PBXGroup;
+			children = (
+				FA68003F1585462F0044AA9A /* BasicMP3 */,
+				FA6800381585462F0044AA9A /* Frameworks */,
+				FA6800371585462F0044AA9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6800371585462F0044AA9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6800361585462F0044AA9A /* BasicMP3.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6800381585462F0044AA9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA6800391585462F0044AA9A /* Cocoa.framework */,
+				FA68003B1585462F0044AA9A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA68003B1585462F0044AA9A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA68003C1585462F0044AA9A /* AppKit.framework */,
+				FA68003D1585462F0044AA9A /* CoreData.framework */,
+				FA68003E1585462F0044AA9A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA68003F1585462F0044AA9A /* BasicMP3 */ = {
+			isa = PBXGroup;
+			children = (
+				FA6800401585462F0044AA9A /* Supporting Files */,
+			);
+			path = BasicMP3;
+			sourceTree = "<group>";
+		};
+		FA6800401585462F0044AA9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA6800411585462F0044AA9A /* BasicMP3-Info.plist */,
+				FA6800421585462F0044AA9A /* InfoPlist.strings */,
+				FA6800451585462F0044AA9A /* BasicMP3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6800351585462F0044AA9A /* BasicMP3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6800481585462F0044AA9A /* Build configuration list for PBXNativeTarget "BasicMP3" */;
+			buildPhases = (
+				FA6800321585462F0044AA9A /* Sources */,
+				FA6800331585462F0044AA9A /* Frameworks */,
+				FA6800341585462F0044AA9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BasicMP3;
+			productName = BasicMP3;
+			productReference = FA6800361585462F0044AA9A /* BasicMP3.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA68002D1585462F0044AA9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = FA6800301585462F0044AA9A /* Build configuration list for PBXProject "BasicMP3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA68002B1585462F0044AA9A;
+			productRefGroup = FA6800371585462F0044AA9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6800351585462F0044AA9A /* BasicMP3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6800341585462F0044AA9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6800441585462F0044AA9A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6800321585462F0044AA9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA6800421585462F0044AA9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA6800431585462F0044AA9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA6800461585462F0044AA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA6800471585462F0044AA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA6800491585462F0044AA9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicMP3/BasicMP3-Prefix.pch";
+				INFOPLIST_FILE = "BasicMP3/BasicMP3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FA68004A1585462F0044AA9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BasicMP3/BasicMP3-Prefix.pch";
+				INFOPLIST_FILE = "BasicMP3/BasicMP3-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6800301585462F0044AA9A /* Build configuration list for PBXProject "BasicMP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6800461585462F0044AA9A /* Debug */,
+				FA6800471585462F0044AA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6800481585462F0044AA9A /* Build configuration list for PBXNativeTarget "BasicMP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6800491585462F0044AA9A /* Debug */,
+				FA68004A1585462F0044AA9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA68002D1585462F0044AA9A /* Project object */;
+}
