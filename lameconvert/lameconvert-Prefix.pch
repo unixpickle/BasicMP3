@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'lameconvert' target in the 'lameconvert' project
+//
+
+#include "config.h"
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
