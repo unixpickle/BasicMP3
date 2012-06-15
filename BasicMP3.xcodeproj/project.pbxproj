@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA53B7DA15865AEF003CF921 /* lameconvert in Resources */ = {isa = PBXBuildFile; fileRef = FA68004F1585463F0044AA9A /* lameconvert */; };
 		FA53B7E415865B22003CF921 /* LAMEConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA53B7E315865B22003CF921 /* LAMEConverter.m */; };
-		FA5D539F158B6B05001307AD /* ACPlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D539E158B6B05001307AD /* ACPlugIn.framework */; };
+		FA5D5B19158BAA69001307AD /* ACPlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5D5B18158BAA69001307AD /* ACPlugIn.framework */; };
 		FA68003A1585462F0044AA9A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6800391585462F0044AA9A /* Cocoa.framework */; };
 		FA6800441585462F0044AA9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA6800421585462F0044AA9A /* InfoPlist.strings */; };
 		FA6800521585463F0044AA9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6800511585463F0044AA9A /* Foundation.framework */; };
@@ -73,7 +73,7 @@
 /* Begin PBXFileReference section */
 		FA53B7E215865B22003CF921 /* LAMEConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAMEConverter.h; sourceTree = "<group>"; };
 		FA53B7E315865B22003CF921 /* LAMEConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAMEConverter.m; sourceTree = "<group>"; };
-		FA5D539E158B6B05001307AD /* ACPlugIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ACPlugIn.framework; sourceTree = "<group>"; };
+		FA5D5B18158BAA69001307AD /* ACPlugIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ACPlugIn.framework; sourceTree = "<group>"; };
 		FA6800361585462F0044AA9A /* BasicMP3.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMP3.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA6800391585462F0044AA9A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		FA68003C1585462F0044AA9A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -176,7 +176,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA68003A1585462F0044AA9A /* Cocoa.framework in Frameworks */,
-				FA5D539F158B6B05001307AD /* ACPlugIn.framework in Frameworks */,
+				FA5D5B19158BAA69001307AD /* ACPlugIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +214,7 @@
 		FA6800381585462F0044AA9A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FA5D539E158B6B05001307AD /* ACPlugIn.framework */,
+				FA5D5B18158BAA69001307AD /* ACPlugIn.framework */,
 				FA6800D7158548050044AA9A /* AudioToolbox.framework */,
 				FA6800391585462F0044AA9A /* Cocoa.framework */,
 				FA6800511585463F0044AA9A /* Foundation.framework */,
