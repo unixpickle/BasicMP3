@@ -7,15 +7,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>ACPlugIn</string>
+	<string>BasicMP3</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.aqnichol.ACPlugIn</string>
+	<string>com.aqnichol.BasicMP3</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>ACPlugIn</string>
+	<string>BasicMP3</string>
 	<key>CFBundlePackageType</key>
-	<string>FMWK</string>
+	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
@@ -25,17 +25,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>4E3002</string>
+	<string>4E1019</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>11E52</string>
+	<string>11D50a</string>
 	<key>DTSDKName</key>
 	<string>macosx10.7</string>
 	<key>DTXcode</key>
-	<string>0433</string>
+	<string>0431</string>
 	<key>DTXcodeBuild</key>
-	<string>4E3002</string>
+	<string>4E1019</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2012 __MyCompanyName__. All rights reserved.</string>
 </dict>
